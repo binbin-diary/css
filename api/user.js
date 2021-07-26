@@ -50,6 +50,7 @@ router.all('/login', function(req, res) {
         uid: `${id}-${hash}`,
         data: result[0]
       }
+      console.log('result', JSON.stringify(resultData));
       const time = getCurrentTime()
       const updateSql = `UPDATE user SET last_login_time = '${time}' WHERE id = '${id}'`
       connection.query(updateSql, function(err, result) {

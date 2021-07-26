@@ -16,6 +16,7 @@
     "express-jwt": "^6.0.0",
     "file-stream-rotator": "^0.5.7",
     "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
